@@ -1,0 +1,63 @@
+
+            body {
+                background-image: linear-gradient(to right, rgba(20,20,20), rgba(20,20,20,0.05));
+                font-family: 'Nunito', sans-serif;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+
+            .content {
+                text-align: center;
+            }
+
+            .title {
+                font-size: 150px;
+                font-weight: 500;
+            }
+
+            .links > a {
+                color: rgb(255,255,255);
+                padding: 0 25px;
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: .1rem;
+                text-decoration: none;
+            }
+
+            .view > a {
+                color: rgb(255,255,255);
+                padding: 0 25px;
+                font-size: 28px;
+                font-weight: 500;
+                letter-spacing: .1rem;
+                text-decoration: none;
+            }
+
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+
+            .navbar {
+                min-height: 60px;
+            }
